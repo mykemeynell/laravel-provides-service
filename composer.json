@@ -1,0 +1,14 @@
+{
+    "name": "mykemeynell/laravel-provides-service",
+    "description": "Set provides return value from aliases set within service provider.",
+    "keywords": ["laravel", "providers", "provides", "aliases"],
+    "type": "library",
+    "require-dev": {
+        "laravel/framework": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "mykemeynell\\Support\\Providers\\Concern\\": "src/"
+        }
+    }
+}
